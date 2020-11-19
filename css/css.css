@@ -480,4 +480,110 @@ ul {
     
 }
 
+/*media query*/
 
+@media screen and (max-width: 766px){
+
+    .navbar .links ul {
+        display: none;
+    }
+
+    .navbar .brand {
+        float: none;
+        width: 100%;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .specialheading:after {
+        display: none;
+
+    }
+    .services {
+        text-align: center;
+    }
+
+    .services .item {
+        float: none;
+        width: 100%;
+    }
+
+    .services .item i {
+        float: none;
+        width: 100%;
+    }
+
+    .services .item .info {
+        float: none;
+        width: 100%;
+    }
+    .ourteam {
+        text-align: center;
+        width: 100%;
+        padding: 0;
+    }
+
+    .ourteam .box{
+        float: none;
+        width: 100%;
+    }
+
+    .ourteam .box:first-child {
+        width: 100%;
+    }
+
+    .ourteam .box h2 {
+        width: 100%;
+        text-align: center;
+        margin: 30px 0 -7px;
+    }
+
+    .ourteam .box p {
+        padding: 15px;
+    }
+
+    .ourteam .box:not(:first-child) {
+        width: 100%;
+    }
+
+    .ourteam .box img {
+        width: 90%;
+        margin-bottom: 10px;
+    }
+
+    .our-projects {
+        width: 100%;
+        text-align: center;
+    }
+
+    .our-projects .gallery .row {
+        width: 100%;
+    }
+    .our-projects .gallery .row > div{
+        width: 40%;
+        margin: 5%;
+        
+    }
+    .our-projects .gallery .row > div:nth-child(1){
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+    .our-projects .gallery .row > div:nth-child(2){
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+    .footer {
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer .col {
+        width: 100%;
+        float: none;
+    }
+
+    .footer .recent div img{
+        float: none;
+        margin-right: 0;
+    }
+}
