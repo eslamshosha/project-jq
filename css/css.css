@@ -511,6 +511,7 @@ ul {
     .services .item i {
         float: none;
         width: 100%;
+        margin-right: 0;
     }
 
     .services .item .info {
@@ -544,6 +545,7 @@ ul {
 
     .ourteam .box:not(:first-child) {
         width: 100%;
+        margin-left: 0;
     }
 
     .ourteam .box img {
